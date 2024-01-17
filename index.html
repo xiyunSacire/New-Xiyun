@@ -4,192 +4,140 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">   
-  <title>6414寝室官网</title>
+  <title>熙云的个人网站</title>
   <style>
     /* CSS样式可以在这里定义 */
+    
     body {
-      background-image: url(https://img1.imgtp.com/2023/09/24/3jeQcczb.png);
-      background-repeat: no-repeat;
+      background-image: url("https://pic4.zhimg.com/v2-018795ae154cf339fefab9fcdb7fdc7a_r.jpg?source=1940ef5c"); /* 替换为你的图片路径 */
       background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .container {
+      width: auto;
+      display: flex;
+      flex-direction: column; /* 设置主轴方向为垂直方向 */
+      justify-content: start; /* 将内部元素在垂直方向上居中对齐 */
+      align-items: center; /* 将内部元素在水平方向上居中对齐 */
+      height: 100vh; /* 设置容器高度为视口高度 */
+      overflow: auto;
+  }
+    .columnbox {
+        display: flex;
+        height: auto;
+        width: auto;
+        /* 可以根据需要设置其他 Flexbox 属性和样式 */
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .columnbox2 {
+        display: flex;
+        height: auto;
+        width: auto;
+        align-items: start;
+        justify-content: center;
     }
     .a {
-      height: 100px;
       display: flex;
-      font-family: 'Lato', sans-serif;
-      color: beige;
-      justify-content: center;
-      font-size:65px;
-      background-image: url(https://img1.imgtp.com/2023/09/24/qVsxvvVM.jpg);
-      border-top: 3px solid #ffb6c1;
-      border-left: 3px solid #ffb6c1;
-      border-bottom: 3px solid #ffb6c1;
-      border-right: 3px solid #ffb6c1;
-      /*background-repeat: no-repeat; 将背景图设置为不重复显示 */
-    }
-    #b {
-      top: 0%;
-      width: 100%;
-      height:200px;
-      display: flex;
-      margin-top: 10px;
-      margin-right: 20px;
-      margin-bottom: 10px;
-    }
-    .c {overflow-y: auto;}
-    .flex-item1{
-      flex-grow: 1;
-      background-color: rgba(0, 0, 0, 0.1);
-      backdrop-filter: blur(10px);
-      border-top: 3px solid #ffb6c1;
-      border-left: 3px solid #ffb6c1;
-      border-bottom: 3px solid #ffb6c1;
-      border-right: 3px solid #ffb6c1;
-    }
-    .flex-item2{
-      flex-grow: 1;
-      background-color: rgba(0, 0, 0, 0.1);
-      backdrop-filter: blur(10px);
-      border-top: 3px solid #ffb6c1;
-      border-bottom: 3px solid #ffb6c1;
-      border-right: 3px solid #ffb6c1;
+      height: 70px;
+      width: 70px;
+      background-image: url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2Ff4486289-d5e6-4df9-a6db-d47e10672cc2%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1708086353&t=a49c9dd971b828f5751fcb88b938bd5f"); /* 替换为你的图片路径 */
+      background-size: cover; /* 控制背景图片的尺寸适应盒子 */
+      background-position: center; /* 控制背景图片在盒子中的位置 */
+      background-repeat: no-repeat; /* 防止背景图片平铺重复 */
+      border-radius: 20%; /* 将边框半径设置为盒子宽度/高度的一半 */
+      overflow: hidden; /* 隐藏超出边界的内容 */
     }
     .zitiyangshi{
+      margin: 5%;
       font-family: "Times New Roman", Times, serif;
-      font-size: x-large;
-      color:indianred;
+      font-size: 40px;
+      font-weight: bold;
+      color:rgb(251, 159, 253);
+      /*word-wrap: break-word;*/ /* 允许文本换行 */
+        display: flex;
+        height: auto;
+        width: 100px;
+        /*background-color: rgb(127, 130, 219);*/
+        justify-content: center;  
     }
-    input[type="date"] {
-     border-style:double;
-     border-width: 2px; /* 调整边框宽度 */
-     border-color:coral;/* 调整边框颜色 */
-     width: 200px;
-     height: 40px;
-     font-size: x-large;
-    }
-    input[type="text"] {
-      font-size: large;
-      width: 200px;
-      height: 20px;
-    }
-    .p {
-      font-size: 15px;
+    .clock {
+      width: auto;
       height: auto;
-      width: auto;
-    }
-    .o {
-      color: #ffb6c1;
-    }
-    .i {
-      background-color:rgba(0, 0, 0, 0.05);
-      width: auto;
-      height: 420px;
       display: flex;
-      border-top: 3px solid;
-      border-left: 3px solid;
-      border-bottom: 3px solid;
-      border-right: 3px solid;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      font-weight: bold;
+      color:rgb(251, 159, 253);
     }
-    .u {
-      text-align:center
+    .columnbox3{
+        display: flex;
+        height: auto;
+        width: auto;
+        align-items: start;
+        justify-content: center;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px;
+        font-weight: 600;
+        color:rgb(0, 0, 0);
+        margin: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+        border-radius: 20%;
+        background-color: transparent; /* 设置盒子的背景为透明 */
+        backdrop-filter: blur(3px); /* 使用模糊效果 */
     }
+    
   </style>
 </head>
 
-<body class="c">
+<body>
+    <div class="container">
+
+        <div class="columnbox">
+          <div class="a">
+
+          </div>
+          <div class="zitiyangshi">
+            熙云
+          </div>
+        </div>
+
+        <div class="columnbox2">
+          <div class="clock">北京时间：</div>
+          <div class="clock" id="clock"></div>
+        </div>
+
+        <div class="columnbox3">
+          如你所见，这是一个简单的个人网站<br>&nbsp&nbsp&nbsp&nbsp以后可能会加入一些实用的功能<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp总之敬请期待
+        </div>
+
+    </div>
+
+
+    <script>
+      function updateClock() {
+        var now = new Date();
+        var hours = now.getHours();
+        var minutes = now.getMinutes();
+        var seconds = now.getSeconds();
   
-  <div class="a">
-    6414寝室官网
-  </div>
+        var time = hours + ":" + padZero(minutes) + ":" + padZero(seconds);
+        document.getElementById("clock").textContent = time;
   
-  <div id="b">
-    <div class="flex-item1">
-      <div class="zitiyangshi">成员:陈黄煜飞</div>
-      <div class="zitiyangshi">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp田成政</div>
-      <div class="zitiyangshi">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp陈俊杰</div>
-      <div class="zitiyangshi">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp刘硕</div>
-    </div>
-    <div class="flex-item2">
-     <div class="zitiyangshi">日期:
-       <input type="date" pattern="\d{4}-\d{2}-\d{2}" placeholder="选择日期">
-     </div>
-      <div class="zitiyangshi">常用功能：
-        <form action="https://cn.bing.com/?mkt=zh-CN" method="get">
-         <input type="text" name="q" placeholder="bing搜索...">
-         <button class="p" type="submit">搜索</button>
-        </form>
-        <div class="zitiyangshi">
-          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a class="o" href="https://github.com/">点击前往Github</a>
-        </div>
-        <div class="zitiyangshi">
-          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a class="o" href="https://www.imgtp.com/">点击前往图床</a>
-        </div>
-        <div class="zitiyangshi">
-          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a class="o" href="https://chat16.aichatos.xyz/#/chat/1695545658611">点击前往国内版ChatGPT</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="i">
-    <div class="zitiyangshi">
-      课程表：
-      <table class="u">
-        <tr>
-          <th>时间</th>
-          <th>星期一</th>
-          <th>星期二</th>
-          <th>星期三</th>
-          <th>星期四</th>
-          <th>星期五</th>
-        </tr>
-        <tr>
-          <td>8:00 - 9:40</td>
-          <td>阅读鉴赏j4-406</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>高等数学j4-101</td>
-        </tr>
-        <tr>
-          <td>10:10 - 11:15</td>
-          <td>大学英语j4-403</td>
-          <td>思想道德j4-302</td>
-          <td>大学英语j4-403</td>
-          <td></td>
-          <td>计算机导智慧-204</td>
-        </tr>
-        <tr>
-          <td>2:30 - 4:10</td>
-          <td></td>
-          <td>高等数学j4-201</td>
-          <td></td>
-          <td>思想道德j4-202</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>4:40 - 6:20</td>
-          <td></td>
-          <td></td>
-          <td>高等数学j4-502</td>
-          <td>高级语言智慧-806</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>6:50 - 8:30</td>
-          <td>高级语言智慧-204</td>
-          <td></td>
-          <td>高级语言智慧-501</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <!-- 其他行以此类推 -->
-      </table>
-    </div>
-  </div>
-
+        setTimeout(updateClock, 1000); // 每秒更新一次
+      }
+  
+      function padZero(number) {
+        return (number < 10 ? "0" : "") + number;
+      }
+  
+      updateClock(); // 初始调用一次
+    </script>
 </body>
-
-
-
 </html>
